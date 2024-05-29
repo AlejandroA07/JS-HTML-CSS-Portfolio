@@ -367,7 +367,6 @@ section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
-  padding-bottom: 3rem;
 }
 .timeline .timeline-item {
   position: relative;
@@ -423,6 +422,7 @@ section {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
   margin-top: 3rem;
+  padding-bottom: 10rem;
 }
 .portfolios .portfolio-item {
   position: relative;
@@ -495,6 +495,7 @@ section {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
   margin-top: 3rem;
+  padding-bottom: 10rem;
 }
 .blogs .blog {
   position: relative;
@@ -708,6 +709,9 @@ section {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
   }
+  .header-content .left-header .image {
+    padding-bottom: 10rem;
+  }
   .left-header .h-shape {
     display: none;
   }
@@ -724,7 +728,7 @@ section {
     font-size: 2.5rem;
   }
   .controlls {
-    position: sticky;
+    position: fixed;
     top: auto;
     bottom: 0;
     display: flex;
@@ -743,5 +747,13 @@ section {
   .about-container .right-about {
     grid-template-columns: 1fr;
     padding-top: 2.5rem;
+  }
+  .section {
+    height: 100vh;
+    padding: 2rem 2.5rem;
+  }
+  .timeline {
+    grid-template-columns: 1fr;
+    padding-bottom: 10rem;
   }
 }/*# sourceMappingURL=style.css.map */

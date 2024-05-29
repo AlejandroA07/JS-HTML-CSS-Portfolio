@@ -202,7 +202,7 @@ padding: 3rem 18rem;
             z-index: -1; 
             clip-path: polygon(0 0, 44% 0, 91% 100%, 0% 100%);
         }
-        .image{ 
+        .image{  
             border-radius: var(--br-sm-2); 
             height: 90%;
             width: 68%; 
@@ -379,7 +379,6 @@ padding: 3rem 18rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
-    padding-bottom: 3rem;
     .timeline-item{
         position: relative;
         padding-left: 3rem;
@@ -437,6 +436,7 @@ padding: 3rem 18rem;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
     margin-top: 3rem;
+    padding-bottom: 10rem;
     .portfolio-item{
         position: relative;
         border-radius: 15px;
@@ -511,6 +511,7 @@ padding: 3rem 18rem;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
     margin-top: 3rem;
+    padding-bottom: 10rem;
     .blog{
         position: relative;
         background-color: var(--color-grey-5);

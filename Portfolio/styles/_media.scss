@@ -13,6 +13,11 @@
     .header-content{
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
+        .left-header{
+            .image{
+                padding-bottom: 10rem;
+            }
+        }
     }
     .left-header{
         .h-shape{
@@ -22,7 +27,6 @@
     .header-content .left-header .image{
         margin: 0 auto;
         width: 90%;
-
     }
 
     .right-header{
@@ -36,7 +40,7 @@
 
 
     .controlls{
-        position: sticky;
+        position: fixed;
         top: auto;
         bottom: 0;
         display: flex;
@@ -57,5 +61,15 @@
             grid-template-columns: 1fr;
             padding-top: 2.5rem;
         }
+    }
+
+    .section{
+        height: 100vh;
+        padding: 2rem 2.5rem;
+    }
+
+    .timeline{
+        grid-template-columns: 1fr;
+        padding-bottom: 10rem;
     }
 }
